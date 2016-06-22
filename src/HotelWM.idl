@@ -1,0 +1,12 @@
+module corba {
+	module hotelbooking {
+		interface HotelWM {
+			string queryHotel(in string req);
+			string queryRoomrate(in string req);
+			string queryVacancy(in string req);
+			string queryRoomId(in string req);
+			string booking(in string req);
+			string queryBook(in string req);
+		};
+	};
+};

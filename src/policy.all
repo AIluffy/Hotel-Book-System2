@@ -1,0 +1,4 @@
+grant codeBase "file:/D:/javastudy/Eclipse WorkSpace/Hotel/bin"
+{
+	permission java.security.AllPermission;
+};
